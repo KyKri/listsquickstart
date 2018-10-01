@@ -11,6 +11,10 @@ namespace ListQuickstart
         static void ListNames()
         {
             var names = new List<string> { "<name>", "Ana", "Felipe" };
+            names.Add("Maria");
+            names.Add("Bill");
+            names.Remove("Ana");
+
             foreach (var name in names)
             {
                 Console.WriteLine($"{name.ToUpper()}");
