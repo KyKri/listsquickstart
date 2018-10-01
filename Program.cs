@@ -19,6 +19,10 @@ namespace ListQuickstart
             {
                 Console.WriteLine($"{name.ToUpper()}");
             }
+
+            Console.WriteLine($"My name is {names[0]}");
+            Console.WriteLine($"I've added names {names[2]} and {names[3]}");
+            Console.WriteLine($"The list has {names.Count} people in it");
         }
 
         static void Main(string[] args)
